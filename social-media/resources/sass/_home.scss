@@ -1,0 +1,29 @@
+#sidebarCol {
+    background-color: #000;
+}
+#feedCol {
+    background-color: #eee;
+    padding-left: 0px;
+}
+
+#mainSidebar {
+    height: 100vh;
+}
+
+#mainFeed {
+    height: 100vh;
+
+    .feed__wrap {
+        background-color: #fff;
+        height: 100vh;
+
+        .feed__post-box {
+            input {
+                width: 100%;
+            }
+            button {
+                float: right;
+            }
+        }
+    }
+}

@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('password_entries', 'Api\PasswordEntries@get');
+
+Route::get('password_groups', 'Api\PasswordGroups@get');
+
+
+
+
